@@ -1,0 +1,25 @@
+body {
+    background-color: #FDFBF2;
+    font-size: 16px;
+    color: #006837;
+}
+
+.band {
+    display: flex;
+    justify-content: center;
+    background-color: #F0E666;
+    height: 150px;
+    box-shadow: black 1px 1px 10px;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+}
+
+h1 {
+    margin-top: 20px;
+    border: 2px solid #006837 ;
+    font-size: 2em;
+    text-align: center;
+}
