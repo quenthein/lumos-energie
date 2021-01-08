@@ -42,7 +42,11 @@ footer {
 .socials_list {
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+}
+
+ul {
+    padding: 0;
+    margin-top: 1em;
 }
 
 li {
