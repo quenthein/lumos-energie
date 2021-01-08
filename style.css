@@ -64,3 +64,12 @@ li {
     font-size: 0.8em;
     text-align: center;
 }
+
+.navbar-logo {
+    display: flex;
+}
+
+.logo-small {
+    width: 100px;
+    height: 100px;
+}
