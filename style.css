@@ -19,9 +19,10 @@ body {
 
 h1 {
     margin-top: 20px;
-    border: 2px solid #006837 ;
+    margin-bottom: 20px;
     font-size: 2em;
     text-align: center;
+    font-style: italic;
 }
 
 .graphique_homepage {
@@ -30,8 +31,8 @@ h1 {
 }
 
 .graphique {
-    width: 250px;
-    height: 200px;
+    width: 350px;
+    height: 300px;
 }
 
 footer {
