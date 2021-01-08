@@ -9,40 +9,84 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar navbar-light" style="background-color: #A3B9FF;">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-              <a class="navbar-brand" href="index.html">Lumos Energie</a>
-              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link" href="index.html">Accueil <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="concept.html">Concept</a>
-                </li>
-                <li class="nav-item ">
-                  <a class="nav-link" href="actualites.html">Actualités</a>
-                </li>
-                <li class="nav-item active">
-                  <a class="nav-link" href="contact.html">Nous contacter</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
-          <div class="band">
-              <div>
-              <img class="logo" src="./ressources/logo_lumos_eval.png" alt="logo">
-              </div>
-          </div>
+      <nav class="navbar navbar-expand-lg navbar navbar-light" style="background-color: #A3B9FF;">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <a class="navbar-brand" href="index.html">Lumos Energie</a>
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Accueil <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="concept.html">Concept</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="actualites.html">Actualités</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="contact.html">Nous contacter</a>
+            </li>
+          </ul>
+        </div>
+        <div class="navbar-logo">
+        <img class="logo-small" src="./ressources/logo_lumos_eval.png" alt="logo">
+        </div>
+      </nav>
+      <div class="band">
+              <h1>"Contactez nous pour toutes demandes concernant votre ville"</h1>
+      </div>
     </header>
     <main>
-      
-
-
-
-
+      <form class="row g-3">
+        <div class="col-6">
+          <label for="inputFirstName" class="form-label">Prénom</label>
+          <input type="text" class="form-control" id="inputFirstName" placeholder="Thibaud">
+        </div>
+        <div class="col-6">
+          <label for="inputLastName" class="form-label">Nom</label>
+          <input type="text" class="form-control" id="inputLastName" placeholder="Georges">
+        </div>
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail4" placeholder="thibaudgeorges@exemple.com">
+        </div>
+        <div class="col-12">
+          <label for="inputCompany" class="form-label">Entreprise</label>
+          <input type="text" class="form-control" id="inputEntreprise" placeholder="Lumos Energie">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Adresse</label>
+          <input type="text" class="form-control" id="inputAddress">
+        </div>
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">Ville</label>
+          <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">Pays</label>
+          <select id="inputState" class="form-select">
+            <option selected>Choisir</option>
+            <option>France</option>
+          </select>
+        </div>
+        <div class="col-md-2">
+          <label for="inputZip" class="form-label">Code Postal</label>
+          <input type="text" class="form-control" id="inputZip">
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              M'inscrire à la Newsletter
+            </label>
+          </div>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-success">Envoyer</button>
+        </div>
+      </form>
     </main>
     <footer>
       <div class="socials_list">
