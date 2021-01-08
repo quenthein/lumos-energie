@@ -11,6 +11,7 @@ body {
     background-color: #F0E666;
     height: 150px;
     box-shadow: black 1px 1px 10px;
+    margin-bottom: 20px;
 }
 
 .logo {
@@ -37,6 +38,7 @@ h1 {
 }
 
 footer {
+    margin-top: 30px;
     height: 100px;
     background-color: #006837;
 }
@@ -75,5 +77,8 @@ li {
     height: 100px;
 }
 
-.band-title {
+.img_actu {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
 }
