@@ -23,3 +23,39 @@ h1 {
     font-size: 2em;
     text-align: center;
 }
+
+.graphique_homepage {
+    display: flex;
+    justify-content: center;
+}
+
+.graphique {
+    width: 250px;
+    height: 200px;
+}
+
+footer {
+    height: 100px;
+    background-color: #006837;
+}
+
+.socials_list {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+li {
+    display: inline-block;
+}
+
+.socials {
+    width: 19px;
+    height: 19px;
+}
+
+.footer-text > p {
+    color: black;
+    font-size: 0.8em;
+    text-align: center;
+}
