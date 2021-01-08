@@ -7,6 +7,7 @@ body {
 .band {
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: #F0E666;
     height: 150px;
     box-shadow: black 1px 1px 10px;
@@ -72,4 +73,7 @@ li {
 .logo-small {
     width: 100px;
     height: 100px;
+}
+
+.band-title {
 }
