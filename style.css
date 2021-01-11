@@ -20,11 +20,11 @@ body {
 }
 
 h1 {
+    font-family: Arial, Helvetica, sans-serif;
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 2em;
     text-align: center;
-    font-style: italic;
 }
 
 .graphique_homepage {
@@ -38,7 +38,7 @@ h1 {
 }
 
 footer {
-    margin-top: 30px;
+    margin-top: 50px;
     height: 100px;
     background-color: #006837;
 }
@@ -75,10 +75,4 @@ li {
 .logo-small {
     width: 100px;
     height: 100px;
-}
-
-.img_actu {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
 }
